@@ -1,8 +1,8 @@
-import Menu from "./componentes/menu";
-import Footer from "./componentes/Footer"
+import Menu from "./src/app/componetes/menu";
+import Footer from "./src/app/componetes/Footer"
 
 export const metadata = {
-    title: "create nex app"
+    title: "create nex app",
     description : "generanted by create next app"
 };
 
