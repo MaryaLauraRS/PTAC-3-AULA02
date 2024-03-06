@@ -1,4 +1,4 @@
-import Map from "../components/Map";
+import Map from "../componetes/Map";
 
 export default function Localizacao(){
     return( 
