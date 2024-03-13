@@ -9,7 +9,6 @@ export default function Footer(){
             height={100}
             src={"https://moodle.org/theme/moodleorg/pix/moodle_logo_TM.svg"}/>
             </Link>
-            <h4>Creditos</h4>
         </footer>
     );
 };
