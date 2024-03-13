@@ -3,7 +3,7 @@ const url = "http://localhost:3000/api";
 export default async function Home() {
 
   const resposta = await fetch(url,{
-    cache:"no-cache"
+    method: "GET"
   });
   const campus = await resposta.json();
  
