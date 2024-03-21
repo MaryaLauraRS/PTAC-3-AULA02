@@ -12,8 +12,10 @@ export default async function Home() {
     <main>
       <h1>Home</h1>
       {campi.map((campus) =>
-        <div>
-             <p>{campus.nome_campus}</p>
+      <div class="card">
+        <div class="card-text"> 
+             <h2>{campus.nome_campus}</h2>
+        </div>
         </div>
       )}
     </main>
