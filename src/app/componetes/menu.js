@@ -6,8 +6,8 @@ export default function Menu(){
     return(
         <header className={styles.cabecalho}>
             <Image 
-            width={100}
-            height={100}
+            width={85}
+            height={85}
             src={"https://www.ifms.edu.br/marcaifms.png"}/>
             
             <nav>

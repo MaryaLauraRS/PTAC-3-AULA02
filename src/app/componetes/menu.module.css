@@ -1,8 +1,9 @@
 .cabecalho{
     display: flex;
-    height: 100px;
-    background-color: rgb(238, 238, 238);
-    
+    height: 120px;
+    width: 100%;
+    background-color: rgb(99,120,61,255);
+    align-items: center;
 }
 
 .cabecalho h1{
@@ -14,12 +15,15 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(255, 0, 0);
   }
   
   .card-text h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
  
+ .divmap{
+  width: auto;
+  margin-inline: 28%;
+ }
